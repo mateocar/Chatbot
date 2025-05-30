@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load("app/chat_model.pkl")
 
-with open("app/intens.py", "r") as intt:
+with open("app/intens.json", "r") as intt:
     intents = json.load(intt)
 
 def get_response(user_input: str) -> str:
