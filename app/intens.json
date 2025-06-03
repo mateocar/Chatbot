@@ -1,0 +1,14 @@
+{
+    "intents":[
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Buenos Dias", "Que tal?", "Buenas tardeas"],
+            "responses": ["Hola", "Buenos Dias", "En que te puedo ayudar?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Adios", "Muchas Gracias", "Hasta luego"],
+            "responses": ["Adios", "Hasta luego", "Nos vemos pronto", "Cuidate"]
+        }
+    ]
+}
